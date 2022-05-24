@@ -9,17 +9,17 @@ An interactive digital pet DJ on the BBC micro:bit v2 (ANU COMP2300 assignment).
 We develop an ARMv7 assembly program that simulates a digital pet DJ. The digital pet is displayed by the LEDs on the micro:bit, and it allows interactions with the buttons. Theoretically, it contains three attributes: state, health value and hunger value. And particularly, the interactions vary in terms of four states. 
 
 - **Normal state**
-  - **Display: ** The normal face is shown randomly over the screen, interspersed with some rare faces.
-  - **Interaction: ** The user can press buttons A and B to manipulate the tone of the byte beat music, and arrows will show accordingly. The pet's hunger value is increasing by this time, and it will trigger the hunger state eventually.
+  - **Display:** The normal face is shown randomly over the screen, interspersed with some rare faces.
+  - **Interaction:** The user can press buttons A and B to manipulate the tone of the byte beat music, and arrows will show accordingly. The pet's hunger value is increasing by this time, and it will trigger the hunger state eventually.
 - **Hunger state**
-  - **Display: ** A sad face is shown, with a byte beat imitating the sound of a siren.
-  - **Interaction: ** The user can touch the LOGO to proceed to the eating state, otherwise the pet's health value continues to drop until death.
+  - **Display:** A sad face is shown, with a byte beat imitating the sound of a siren.
+  - **Interaction:** The user can touch the LOGO to proceed to the eating state, otherwise the pet's health value continues to drop until death.
 - **Eating state**
-  - **Display: ** A beating heart is shown, with a byte beat imitating the sound of a pump.
-  - **Interaction: ** The user can press either of the buttons to increase the pet's health. If the pet's health value drops out, the death state will be triggered. If the pet's health value is full, the pet will return to its normal state.
+  - **Display:** A beating heart is shown, with a byte beat imitating the sound of a pump.
+  - **Interaction:** The user can press either of the buttons to increase the pet's health. If the pet's health value drops out, the death state will be triggered. If the pet's health value is full, the pet will return to its normal state.
 - **Death state**
-  - **Display: ** A skull is shown, with a byte beat imitating the sound of pulses.
-  - **Interaction: ** The user can touch the LOGO to reset the digital pet and start over from the normal state.
+  - **Display:** A skull is shown, with a byte beat imitating the sound of pulses.
+  - **Interaction:** The user can touch the LOGO to reset the digital pet and start over from the normal state.
 
 ## Implementation
 

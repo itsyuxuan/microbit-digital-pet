@@ -1,2 +1,2 @@
 # microbit-digital-pet
-A digital pet DJ on micro:bit by ARMv7 Assembly.
+An interactive digital pet DJ on the BBC micro:bit v2 (ANU COMP2300 assignment).

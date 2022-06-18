@@ -1,3 +1,5 @@
+> For information about how to run the program, please visit the [COMP2300 course website](https://comp.anu.edu.au/courses/comp2300/).
+
 # microbit-digital-pet
 
 An interactive digital pet DJ on the BBC micro:bit v2 (ANU COMP2300 assignment).
